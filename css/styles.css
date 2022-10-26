@@ -118,6 +118,22 @@ img {
     }
 }
 
+.header__boton {
+    background-color: var(--primario);
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    color: var(--blanco);
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+    .header__boton {
+        padding: 1rem 3rem;
+        display: inline-block;
+    }
+}
+
 
 .navegacion {
     display: flex;
@@ -134,7 +150,7 @@ img {
 }
 
 .navegacion__link {
-
+    color: var(--primario);
 }
 
 @media (min-width: 768px) {
